@@ -13,3 +13,19 @@
   margin: 10px;
   display: inline-block;
 }
+.align {
+  padding: 10px;
+  position:relative;
+  width: 50%;
+  float:left;
+}
+.img {
+  width:50%;
+  float:left;
+}
+
+@media (max-width: 640px) {
+  .align{
+    width:100%
+  }
+}
